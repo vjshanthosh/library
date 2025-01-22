@@ -138,7 +138,7 @@ void return_book (int current, map<int, vector<string> >& user_book, map<string,
 
 int main() {
     map<int, pair<string, string> > users;
-    users[0] = {0, "Admin@123"};
+    users[0] = {"Admin", "Admin@123"};
     map<string, int> books;
     map<int, vector<string> > user_book;
     set_default(users, books, user_book);
